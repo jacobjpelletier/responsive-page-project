@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--
+    the X-UA-Compatible declaration is for backward compatibility of older browsers
+    https://docs.microsoft.com/en-us/previous-versions/windows/internet-explorer
+    /ie-developer/compatibility/cc288325(v=vs.85)
+    -->
+    <title>Jacob Pelletier</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500"
+        rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body class="site">
+
+    <header class="header">
+      <div class="logo">
+        <img src="static/logo3.png" alt="site logo" class="logoimg">
+      </div>
+      <div class="page_title">
+        <h1 class="title">&#10094; Jacob &#10095;<br>&#10094; Pelletier &#10095;</h1>
+        <h1 class="title1"><br>&#10094; Jacob Pelletier &#10095;</h1>
+        <h3 class="title_desc">&#10094; Front-End Dude &#10095;</h3>
+      </div>
+    </header>
+
+    <div class="navbutton">
+        <span style="font-size:50px;cursor:pointer" onclick="openNav()">&#10094;
+            &#9756; open &#10095;</span>
+    </div>
+
+    <nav id="drawer" class="nav">
+      <ul class="nav__list">
+        <li><a href="#">Link</a></li>
+        <li><a href="#">Link</a></li>
+        <li><a href="#">Link</a></li>
+        <li><a href="#">Link</a></li>
+        <li><a href="javascript:void(0)" class="closebtn" onclick="closeNav()">
+          <span class="pointer">&#9758;</span></a></li>
+      </ul>
+    </nav>
+
+    <main class="info">
+      <div class="main_image">
+        <img src="static/globe.jpg" alt="site logo" class="mainimg">
+      </div>
+      <div class="text">
+        <section class="column">
+          <h2 class="subtitle">&#10094; one &#10095;</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+            sed do eiusmod tempor incididunt ut labore et dolore magna
+            aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+            laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+            dolor in reprehenderit in voluptate velit esse cillum dolore eu
+            fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident, sunt in culpa qui officia deserunt mollit anim id
+            est laborum.
+          </p>
+        </section>
+        <div class="column">
+          <h2 class="subtitle">&#10094; two &#10095;</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+            sed do eiusmod tempor incididunt ut labore et dolore magna
+            aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+            laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+            dolor in reprehenderit in voluptate velit esse cillum dolore eu
+            fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident, sunt in culpa qui officia deserunt mollit anim id
+            est laborum.
+          </p>
+        </div>
+      </div>
+      <div class="bottom_info">
+        <div class="bottom_title">
+          <h2>&#10094; Featured Work &#10095;</h2>
+        </div>
+        <div class="bottom_container">
+          <img src="static/coffee-l.jpg"
+               alt="site logo" class="bottomimg">
+            <p>
+              &#10094; Lorem ipsum dolor sit amet, consectetur adipiscing elit. &#10095;
+            </p>
+        </div>
+        <div class="bottom_container">
+          <img src="static/phone-l.jpg"
+               alt="site logo" class="bottomimg">
+            <p>
+              &#10094; Lorem ipsum dolor sit amet, consectetur adipiscing elit. &#10095;
+            </p>
+        </div>
+        <div class="bottom_container">
+          <img src="static/tiger-l.jpg"
+               alt="site logo" class="bottomimg">
+            <p>
+              &#10094; Lorem ipsum dolor sit amet, consectetur adipiscing elit. &#10095;
+            </p>
+        </div>
+        <div class="bottom_container">
+          <img src="static/coffee-l.jpg"
+               alt="site logo" class="bottomimg">
+            <p>
+              &#10094; Lorem ipsum dolor sit amet, consectetur adipiscing elit. &#10095;
+            </p>
+        </div>
+        <div class="bottom_container">
+          <img src="static/phone-l.jpg"
+               alt="site logo" class="bottomimg">
+            <p>
+              &#10094; Lorem ipsum dolor sit amet, consectetur adipiscing elit. &#10095;
+            </p>
+        </div>
+        <div class="bottom_container">
+          <img src="static/tiger-l.jpg"
+               alt="site logo" class="bottomimg">
+            <p>
+              &#10094; Lorem ipsum dolor sit amet, consectetur adipiscing elit. &#10095;
+            </p>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <h5 class="foot">contact me at frontenddude@dudestorm.com</h5>
+    </footer>
+  <script>
+  function openNav() {
+    document.getElementById("drawer").style.width = "75%";
+    document.getElementById("main").style.marginLeft = "25%";
+  }
+
+  function closeNav() {
+    document.getElementById("drawer").style.width = "0";
+    document.getElementById("main").style.marginLeft= "0";
+  }
+  </script>
+  </body>
+</html>
